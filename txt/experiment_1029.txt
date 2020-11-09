@@ -1,0 +1,96 @@
+XGBoost hyperparameter
+
+opt = { 'max_depth' : 8,
+        'n_estimators' : 200,
+        'learning_rate' : 0.010,
+         'min_child_weight' : 6,
+         'colsample_bytree' : 0.8,
+        'verbosity' : 0,
+        'objective' : 'binary:logistic',
+        'booster' : 'gbtree',
+        'subsample' : 0.8}
+
+feature to drop :
+
+[] 
+: 0.7674
+
+[ 'QaE', 'QjA', 'QmE', 'tp04', 'tp09', 'tp_score_4' ] 
+: 0.7701
+
+[ 'QaE', 'QjA', 'QmE', 'tp04', 'tp09', 'tp_score_4' ] + ['QbA', 'QbE', 'QgE', 'QhA'] 
+: 0.770656
+
+[ 'QaE', 'QjA', 'QmE', 'tp04', 'tp09', 'tp_score_4' ] + ['QbA', 'QbE', 'QgE', 'QhA'] + ['QfE', 'QiE']
+ : 0.770836
+
+[ 'QaE', 'QjA', 'QmE', 'tp04', 'tp09', 'tp_score_4' ] + ['QbA', 'QbE', 'QgE', 'QhA'] + ['QfE', 'QiE'] 
++ ['QmA', 'QoE', 'tp10', 'tp_score_2']
+ : 0.771747
+
+[ 'QaE', 'QjA', 'QmE', 'tp04', 'tp09', 'tp_score_4' ] + ['QbA', 'QbE', 'QgE', 'QhA'] + ['QfE', 'QiE'] 
++ ['QmA', 'QoE', 'tp10', 'tp_score_2'] + ['QtA', 'wf_03']
+: 0.772216
+
+[ 'QaE', 'QjA', 'QmE', 'tp04', 'tp09', 'tp_score_4' ] + ['QbA', 'QbE', 'QgE', 'QhA'] + ['QfE', 'QiE'] 
++ ['QmA', 'QoE', 'tp10', 'tp_score_2'] + ['QtA', 'wf_03'] + ['QlE', 'QrE']
+: 0.772465
+
+[ 'QaE', 'QjA', 'QmE', 'tp04', 'tp09', 'tp_score_4' ] + ['QbA', 'QbE', 'QgE', 'QhA'] + ['QfE', 'QiE'] 
++ ['QmA', 'QoE', 'tp10', 'tp_score_2'] + ['QtA', 'wf_03'] + ['QlE', 'QrE'] + ['QlA', 'wr_09', 'wr_11']
+: 0.772495
+
+[ 'QaE', 'QjA', 'QmE', 'tp04', 'tp09', 'tp_score_4' ] + ['QbA', 'QbE', 'QgE', 'QhA'] + ['QfE', 'QiE'] 
++ ['QmA', 'QoE', 'tp10', 'tp_score_2'] + ['QtA', 'wf_03'] + ['QlE', 'QrE'] + ['QlA', 'wr_09', 'wr_11'] 
++ ['QeE', 'QkA']
+: 0.772696
+
+[ 'QaE', 'QjA', 'QmE', 'tp04', 'tp09', 'tp_score_4' ] + ['QbA', 'QbE', 'QgE', 'QhA'] + ['QfE', 'QiE'] 
++ ['QmA', 'QoE', 'tp10', 'tp_score_2'] + ['QtA', 'wf_03'] + ['QlE', 'QrE'] + ['QlA', 'wr_09', 'wr_11'] 
++ ['QeE', 'QkA'] + ['QoA']
+: 0.772093
+
+[ 'QaE', 'QjA', 'QmE', 'tp04', 'tp09', 'tp_score_4' ] + ['QbA', 'QbE', 'QgE', 'QhA'] + ['QfE', 'QiE'] 
++ ['QmA', 'QoE', 'tp10', 'tp_score_2'] + ['QtA', 'wf_03'] + ['QlE', 'QrE'] + ['QlA', 'wr_09', 'wr_11'] 
++ ['QeE', 'QkA'] + ['QoA'] + ['QsA', 'wr_06']
+: 0.772733
+
+[ 'QaE', 'QjA', 'QmE', 'tp04', 'tp09', 'tp_score_4' ] + ['QbA', 'QbE', 'QgE', 'QhA'] + ['QfE', 'QiE'] 
++ ['QmA', 'QoE', 'tp10', 'tp_score_2'] + ['QtA', 'wf_03'] + ['QlE', 'QrE'] + ['QlA', 'wr_09', 'wr_11'] 
++ ['QeE', 'QkA'] + ['QoA'] + ['QsA', 'wr_06'] + ['tp01']
+: 0.772574
+
+[ 'QaE', 'QjA', 'QmE', 'tp04', 'tp09', 'tp_score_4' ] + ['QbA', 'QbE', 'QgE', 'QhA'] + ['QfE', 'QiE'] 
++ ['QmA', 'QoE', 'tp10', 'tp_score_2'] + ['QtA', 'wf_03'] + ['QlE', 'QrE'] + ['QlA', 'wr_09', 'wr_11'] 
++ ['QeE', 'QkA'] + ['QoA'] + ['QsA', 'wr_06'] + ['tp01'] + ['QpE']
+: 0.773630
+
+[ 'QaE', 'QjA', 'QmE', 'tp04', 'tp09', 'tp_score_4' ] + ['QbA', 'QbE', 'QgE', 'QhA'] + ['QfE', 'QiE'] 
++ ['QmA', 'QoE', 'tp10', 'tp_score_2'] + ['QtA', 'wf_03'] + ['QlE', 'QrE'] + ['QlA', 'wr_09', 'wr_11'] 
++ ['QeE', 'QkA'] + ['QoA'] + ['QsA', 'wr_06'] + ['tp01'] + ['QpE'] + ['QrA']
+: 0.773736
+
+[ 'QaE', 'QjA', 'QmE', 'tp04', 'tp09', 'tp_score_4' ] + ['QbA', 'QbE', 'QgE', 'QhA'] + ['QfE', 'QiE'] 
++ ['QmA', 'QoE', 'tp10', 'tp_score_2'] + ['QtA', 'wf_03'] + ['QlE', 'QrE'] + ['QlA', 'wr_09', 'wr_11'] 
++ ['QeE', 'QkA'] + ['QoA'] + ['QsA', 'wr_06'] + ['tp01'] + ['QpE'] + ['QrA'] + ['QeA']
+: 0.773766
+
+[ 'QaE', 'QjA', 'QmE', 'tp04', 'tp09', 'tp_score_4' ] + ['QbA', 'QbE', 'QgE', 'QhA'] + ['QfE', 'QiE'] 
++ ['QmA', 'QoE', 'tp10', 'tp_score_2'] + ['QtA', 'wf_03'] + ['QlE', 'QrE'] + ['QlA', 'wr_09', 'wr_11'] 
++ ['QeE', 'QkA'] + ['QoA'] + ['QsA', 'wr_06'] + ['tp01'] + ['QpE'] + ['QrA'] + ['QeA'] 
++ ['QcE', 'QnA', 'QnE', 'QtE', 'wr_07', 'wr_12', 'QcA', 'hand', 'tp05', 'wr_13', 'QsE', 'tp02', 'tp08']
+: 0.774710
+
+[ 'QaE', 'QjA', 'QmE', 'tp04', 'tp09', 'tp_score_4' ] + ['QbA', 'QbE', 'QgE', 'QhA'] + ['QfE', 'QiE'] 
++ ['QmA', 'QoE', 'tp10', 'tp_score_2'] + ['QtA', 'wf_03'] + ['QlE', 'QrE'] + ['QlA', 'wr_09', 'wr_11'] 
++ ['QeE', 'QkA'] + ['QoA'] + ['QsA', 'wr_06'] + ['tp01'] + ['QpE'] + ['QrA'] + ['QeA'] 
++ ['QcE', 'QnA', 'QnE', 'QtE', 'wr_07', 'wr_12', 'QcA', 'hand', 'tp05', 'wr_13', 'QsE', 'tp02', 'tp08']
++ ['wf_01'] + ['QgA', 'QkE', 'QdA']
+: 0.774380
+
+[ 'QaE', 'QjA', 'QmE', 'tp04', 'tp09', 'tp_score_4' ] + ['QbA', 'QbE', 'QgE', 'QhA'] + ['QfE', 'QiE'] 
++ ['QmA', 'QoE', 'tp10'] + ['QtA', 'wf_03'] + ['QlE', 'QrE'] + ['QlA', 'wr_09', 'wr_11'] 
++ ['QeE', 'QkA'] + ['QoA'] + ['QsA', 'wr_06'] + ['tp01'] + ['QpE'] + ['QrA'] + ['QeA'] 
++ ['QcE', 'QnA', 'QnE', 'QtE', 'wr_07', 'wr_12', 'QcA', 'hand', 'tp05', 'wr_13', 'QsE', 'tp02', 'tp08']
++ ['wf_01'] + ['QgA', 'QkE', 'QdA']
+: 0.774480

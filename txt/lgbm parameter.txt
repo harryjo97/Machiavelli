@@ -1,0 +1,21 @@
+LGBM hyperparameter 
+
+For heavily unbalanced datasets such as 1:10000:
+
+max_bin: keep it only for memory pressure, not to tune (otherwise overfitting)
+learning rate: keep it only for training speed, not to tune (otherwise overfitting)
+n_estimators: must be infinite (like 9999999) and use early stopping to auto-tune (otherwise overfitting)
+num_leaves: [7, 4095]
+max_depth: [2, 63] and infinite (I personally saw metric performance increases with such 63 depth with small number of leaves on sparse unbalanced datasets)
+scale_pos_weight: [1, 10000] (if over 10000, something might be wrong because I never saw it that good after 5000)
+min_child_weight: [0.01, (sample size / 1000)] if you are using logloss (think about the hessian possible value range before putting "sample size / 1000", it is dataset-dependent and loss-dependent)
+subsample: [0.4, 1]
+bagging_freq: only 1, keep as is (otherwise overfitting)
+colsample_bytree: [0.4, 1]
+is_unbalance: false (make your own weighting with scale_pos_weight)
+USE A CUSTOM METRIC (to reflect reality without weighting, otherwise you have weights inside your metric with premade metrics like xgboost)
+Never tune these parameters unless you have an explicit requirement to tune them:
+
+Learning rate (lower means longer to train but more accurate, higher means smaller to train but less accurate)
+Number of boosting iterations (automatically tuned with early stopping and learning rate)
+Maximum number of bins (RAM dependent)

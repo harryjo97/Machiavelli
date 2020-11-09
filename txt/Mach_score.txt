@@ -1,0 +1,29 @@
+The Mach IV comprises three subscales: Tactics,  Morality, and Views. 
+
+A minus sign (-) indicates that the item is reverse scored
+
+T+	1.  Anyone who completely trusts anyone else is asking for trouble.
+V-	2.  Most people who get ahead in the world lead clean moral lives.
+V+	3.  It is safest to assume that all people have a vicious streak and it will come out when they are given a chance.
+T-	4.  One should take action only when sure it is morally right.
+V+	5.  Generally speaking, people won?t work hard unless they?re forced to do so.
+T+	6.  It is wise to flatter important people.
+V+	7.  It is hard to get ahead without cutting corners here and there.
+M+	8.  People suffering from incurable diseases should have the choice of being put painlessly to death.
+V-	9.  Most people are brave.
+T+	10.  The best way to handle people is to tell them what they want to hear.
+V+	11.  The biggest difference between most criminals and other people is that criminals are stupid enough to get caught.
+T-	12.  Honesty is the best policy in all cases.
+V-	13.  Barnum was very wrong when he said there?s a sucker born every minute.
+V-	14.  Most people are basically good and kind.
+ 
+T-	15.  When you ask someone to do something for you, it is best to give the real reasons for wanting it rather than giving reasons which might carry more weight.
+T-	16.  It is possible to be good in all respects.
+V+	17.  Most people forget more easily the death of a parent than the loss of their property.
+T+	18.  Never tell anyone the real reason you did something unless it is useful to do so.
+T-	19.  There is no excuse for lying to someone else.
+M-	20.  All in all, it is better to be humble and honest than to be important and dishonest.
+
+
+Overall Mach score is the mean of the 20 items (after reversing the appropriate items).
+

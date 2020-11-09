@@ -1,0 +1,100 @@
+[] 
+: 0.7674
+
+['QjA']
+: 0.7684
+
+['QjA','QaE', 'QbA', 'QeE', 'QfE', 'QhA', 'QiE', 'tp09', 'tp_score_4']
+: 0.7696
+
+['QjA','QaE', 'QbA', 'QeE', 'QfE', 'QhA', 'QiE', 'tp09', 'tp_score_4',
+      'QbE', 'QtA', 'tp01', 'tp_score_2'
+      ]
+: 0.7704
+
+['QjA','QaE', 'QbA', 'QeE', 'QfE', 'QhA', 'QiE', 'tp09', 'tp_score_4',
+      'QbE', 'QtA', 'tp01', 'tp_score_2',
+      'QmA', 'QmE', 'tp04'
+      ]
+: 0.7719
+
+['QjA','QaE', 'QbA', 'QeE', 'QfE', 'QhA', 'QiE', 'tp09', 'tp_score_4',
+      'QbE', 'QtA', 'tp01', 'tp_score_2',
+      'QmA', 'QmE', 'tp04',
+      'QgE', 'QkA', 'QoE', 'QsA'
+      ]
+: 0.7719
+
+['QjA','QaE', 'QbA', 'QeE', 'QfE', 'QhA', 'QiE', 'tp09', 'tp_score_4',
+      'QbE', 'QtA', 'tp01', 'tp_score_2',
+      'QmA', 'QmE', 'tp04',
+      'QgE', 'QkA', 'QoE', 'QsA',
+      'QlE', 'QoE', 'QrE', 'wf_03'
+      ]
+: 0.7734
+
+['QjA','QaE', 'QbA', 'QeE', 'QfE', 'QhA', 'QiE', 'tp09', 'tp_score_4',
+      'QbE', 'QtA', 'tp01', 'tp_score_2',
+      'QmA', 'QmE', 'tp04',
+      'QgE', 'QkA', 'QoE', 'QsA',
+      'QlE', 'QoE', 'QrE', 'wf_03',
+      'QoA'
+      ]
+: 0.7725
+
+['QjA','QaE', 'QbA', 'QeE', 'QfE', 'QhA', 'QiE', 'tp09', 'tp_score_4',
+      'QbE', 'QtA', 'tp01', 'tp_score_2',
+      'QmA', 'QmE', 'tp04',
+      'QgE', 'QkA', 'QoE', 'QsA',
+      'QlE', 'QoE', 'QrE', 'wf_03',
+      'QoA', 'QlA', 'QsE', 'tp10'
+      ]
+: 0.7737
+
+['QjA','QaE', 'QbA', 'QeE', 'QfE', 'QhA', 'QiE', 'tp09', 'tp_score_4',
+      'QbE', 'QtA', 'tp01', 'tp_score_2',
+      'QmA', 'QmE', 'tp04',
+      'QgE', 'QkA', 'QoE', 'QsA',
+      'QlE', 'QoE', 'QrE', 'wf_03',
+      'QoA', 'QlA', 'QsE', 'tp10', 'QpE', 'tp08', 'wf_01'
+      ]
+: 0.7736
+
+['QjA','QaE', 'QbA', 'QeE', 'QfE', 'QhA', 'QiE', 'tp09', 'tp_score_4',
+      'QbE', 'QtA', 'tp01', 'tp_score_2',
+       'QmA', 'QmE', 'tp04',
+       'QgE', 'QkA', 'QoE', 'QsA',
+       'QlE', 'QoE', 'QrE', 'wf_03',
+       'QoA', 'QlA', 'QsE', 'tp10',
+       'QpE', 'tp08', 'wf_01',
+       'QkE', 'QrA', 'wr_05', 'wr_09', 'wr_10', 'wr_11'
+      ]
+: 0.7732
+
+['QjA','QaE', 'QbA', 'QeE', 'QfE', 'QhA', 'QiE', 'tp09', 'tp_score_4',
+      'QbE', 'QtA', 'tp01', 'tp_score_2',
+       'QmA', 'QmE', 'tp04',
+       'QgE', 'QkA', 'QoE', 'QsA',
+       'QlE', 'QoE', 'QrE', 'wf_03',
+       'QoA', 'QlA', 'QsE', 'tp10',
+       'QpE', 'tp08', 'wf_01',
+       'QkE', 'QrA', 'wr_05', 'wr_09', 'wr_10', 'wr_11',
+       'QgA', 'QtE', 'hand', 'tp06', 'QeA'
+      ]
+: 0.7739
+
+['QjA','QaE', 'QbA', 'QeE', 'QfE', 'QhA', 'QiE', 'tp09', 'tp_score_4',
+      'QbE', 'QtA', 'tp01', 'tp_score_2',
+       'QmA', 'QmE', 'tp04',
+       'QgE', 'QkA', 'QoE', 'QsA',
+       'QlE', 'QoE', 'QrE', 'wf_03',
+       'QoA', 'QlA', 'QsE', 'tp10',
+       'QpE', 'tp08', 'wf_01',
+       'QkE', 'QrA', 'wr_05', 'wr_09', 'wr_10', 'wr_11',
+       'QgA', 'QtE', 'hand', 'tp06', 'QeA', 'wr_06', 'wr_12',
+       'wr_03', 'wr_07', 'QdA', 'QdE', 'QnE', 'wr_13'
+      ]
+: 0.7738
+
+
+
